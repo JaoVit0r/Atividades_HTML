@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ATIVIDADE FIXAÇÃO 3</title>
+    <style>
+        .disposição_lateral {
+            display:inline-block
+        }
+        .borda_preta {
+            border: 1px solid black
+        }
+        tr,th,td {
+                border: 1px solid black
+        }
+        footer {
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        footer img {
+            margin: 10px;
+        }
+        nav > ul > li {
+            border: 5px outset black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 10px 50px;
+        }
+        body {
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: rgb(64, 231, 231);
+        }
+        h1 {
+            text-align: center;
+        }
+        header > h1 {
+            color: white;
+        }
+        nav > ul > li:hover {
+            font-size: 150%;
+        }
+        nav > ul > li {
+            background-color: white;
+        }
+        aside {
+            text-align: center;
+            margin: 10px 5px;
+            background-color: white;
+            width: 1120px;
+        }
+        aside:hover {
+            font-size: 110%;
+        }
+        
+        section {
+            border: 2px solid black;
+            margin: 30px;
+            padding: 10px;
+            background-color: rgb(223, 235, 235);
+        }
+
+    </style>
+</head>
+    <body>
+        <header style="border:5px solid black;text-align: center; background-color: cadetblue;">
+            <h1>Menu</h1>
+            <nav>
+                <ul>
+                    <li class="disposição_lateral"><b><a href="#sec1">Seção 1</a></b></li>
+                    <li class="disposição_lateral"><b><a href="#sec2">Seção 2</a></b></li>
+                    <li class="disposição_lateral"><b><a href="#art">Artigo</a></b></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <a href="https://www.zapimoveis.com.br/aluguel/apartamentos/rj+rio-de-janeiro+zona-oeste+barra-da-tijuca/" target="_blank">
+            <aside>
+                <h1>ALUGUEL NA BARRA DA TIJUCA</h1>
+                <img style="display: inline-block;" src="https://th.bing.com/th/id/R.d2b7c5cbdf7bfd4aa80eb3272efcdcf2?rik=fXh%2bD%2febjUOwuQ&pid=ImgRaw&r=0" alt="propaganda-condominio1" height="200px">
+                <img style="display: inline-block;" src="https://th.bing.com/th/id/R.7818717033405671ad1e8256a260d9a3?rik=iH9ljRHqdjrKkg&pid=ImgRaw&r=0" alt="propaganda-condominio2" height="200px">
+                <img style="display: inline-block;" src="https://th.bing.com/th/id/OIP.oBhlJqSyaEcgC4qusutSEQHaEy?pid=ImgDet&rs=1" alt="propaganda-condominio3" height="200px">
+                <h2>A partir de R$1.400</h2>
+            </aside>
+        </a>
+        <main>
+            <section id="sec1">
+                <h1 style="text-align: center;">Seção 1: Apresentação do desenvolvedor</h1>
+                <h2>João Vitor Nunes dos Santos</h2>
+            <figure>
+                <img src="eu.jpg" alt="Foto-JoãoVitor" width="30%" height="40%">
+            </figure>
+            <div>
+                <h3><u>Apresentação pessoal e profissional</u></h3>
+                <p>
+Olá. Meu nome é <b>João Vitor</b>, tenho <i>18</i> anos e moro no Rio de Janeiro. Estou no segundo período de Química Industrial, pela Universidade Federal do Rio de Janeiro.
+Minha formação acadêmica, uma vez que ainda não possuo experiência profissional, foi baseada em uma grande oportunidade de bolsa de estudo em uma escola de excelência no Rio de Janeiro e no Brasil: o Colégio de São Bento, a partir de um projeto. 
+Trabalhei e trabalho voluntariamente em alguns projetos educacionais, como o Demostudo e Globalizando, e já dei aula de reforço não remuneradamente em uma escola pública que estudei. Amo ensinar e tenho que, para mim, o farei independentemente da área de atuação prossional que eu estiver.
+                </p>
+            </div>
+            <h3><u>Interesse em tecnologia</u></h3>
+            <div>
+                <p>
+Sempre ouvi, durante meu ensino médio, que programação era uma grande habilidade do futuro e do mercado. Logo quando tive oportunidade, busquei cursos gratuitos de programação e aos poucos fui tomando conhecimento do quanto a tecnologia era aplicável em diversas áreas e o quanto saber mais sobre contribuiria para meu conhecimento profissional e pessoal
+                </p>
+            </div>
+            <div>
+                <h3><u>Expectativas para o curso</u></h3>
+                <p>
+Como pude perceber, há muito asprendizado a ser absorvido no curso, não só pelo conteúdo. Minha expectativa é trocar conhecimento com outros alunos, de diversas realidades, e também aproveitar todos os recursos fornecidos pela Let's Code e de fato aprender Web React.
+                </p>
+            </div>
+            </section>
+            <section id="sec2">
+                <h1>Seção 2: Notas dos alunos de reforço</h1>
+                <h2>Boletim de notas - Aulas particulares</h2>
+                <table style="margin: 50px 200px;" class="borda_preta">
+                    <tr>
+                        <th colspan="13">Relação Notas/Ranking</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Aluno</th>
+                        <th colspan="3">1° Bimestre</th>
+                        <th colspan="3">2° Bimestre</th>
+                        <th colspan="3">3° Bimestre</th>
+                        <th colspan="3">4° Bimestre</th>
+                    </tr>
+                    <tr>
+                        <td>Nota 1</td>
+                        <td>Nota 2</td>
+                        <td>Média</td>
+                        <td>Nota 1</td>
+                        <td>Nota 2</td>
+                        <td>Média</td>
+                        <td>Nota 1</td>
+                        <td>Nota 2</td>
+                        <td>Média</td>
+                        <td>Nota 1</td>
+                        <td>Nota 2</td>
+                        <td>Média</td>
+                    </tr>
+                    <tr>
+                        <th>João</th>
+                        <td>7,0</td>
+                        <td>8,0</td>
+                        <td>7,5</td>
+                        <td>6,5</td>
+                        <td>4,5</td>
+                        <td>5,5</td>
+                        <td>9,0</td>
+                        <td>10,0</td>
+                        <td>9,5</td>
+                        <td>7,5</td>
+                        <td>7,0</td>
+                        <td>7,3</td>
+                    </tr>
+                    <tr>
+                        <th>Maria</th>
+                        <td>10,0</td>
+                        <td>8,0</td>
+                        <td>9,0</td>
+                        <td>7,5</td>
+                        <td>7,0</td>
+                        <td>7,3</td>
+                        <td>6,5</td>
+                        <td>9,5</td>
+                        <td>8,0</td>
+                        <td>10,0</td>
+                        <td>7,0</td>
+                        <td>8,5</td>
+                    </tr>
+                    <tr>
+                        <th>Paulo</th>
+                        <td>5,0</td>
+                        <td>6,0</td>
+                        <td>5,5</td>
+                        <td>7,0</td>
+                        <td>7,5</td>
+                        <td>7,3</td>
+                        <td>9,0</td>
+                        <td>7,5</td>
+                        <td>8,3</td>
+                        <td>7,0</td>
+                        <td>8,0</td>
+                        <td>7,5</td>
+                    </tr>
+                </table>
+                <h2>Inscritos no reforço</h2>
+                <ul>
+                    <li>João</li>
+                    <li>Maria</li>
+                    <li>Paulo</li>
+                </ul>
+                <h2>Ranking de maiores médias por bimestre</h2>
+                <ul>
+                    <li>
+                        1º Bimestre
+                        <ol type="1º">
+                            <li>Maria</li>
+                            <li>João</li>
+                            <li>Paulo</li>
+                        </ol>
+                    </li>
+                    <li>
+                        2º Bimestre
+                        <ol type="1º">
+                            <li>Maria/Paulo</li>
+                            <li>João</li>
+                        </ol>
+                    </li>
+                    <li>
+                        3º Bimestre
+                        <ol type="1º">
+                            <li>João</li>
+                            <li>Paulo</li>
+                            <li>Maria</li>
+                        </ol>
+                    </li>
+                    <li>
+                        4º Bimestre
+                        <ol type="1º">
+                            <li>Maria</li>
+                            <li>João</li>
+                            <li>Paulo</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h1>A importância do reforço escolar no desempenho estudantil</h1>
+                <article id="art">
+                    <p>
+                        Estatísticas apontam a relevância do reforço escolar, quando bem aproveitado, no desempenho escolar do jovem. O reforço escolar é definido como um tempo de aula além do regular.
+                    </p>
+                    <p>
+                        Sua importância reside na defasagem na assimilação do conteúdo ministrado nas escolas. Há, assim, uma necessidade de aulas particulares, adotando uma metodologia fora do convencional, de modo a atender necessidades específicas. Desse modo, os efeitos poderão ser vistos a curtíssimo prazo.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer style="background-color: white">
+            <h1>Muito Obrigado!</h1>
+            <a href="https://www.instagram.com/jaovitu2/" target="_blank"><img src="instagram.jpg" alt="Logo-instagram" width="100px" height="100px"></a>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-nunes-dos-santos-4581b9172/" target="_blank"><img src="download.png" alt="logo-linkedin" width="100px" height="100px"></a>    
+        </footer>
+    </body>
+</html>
